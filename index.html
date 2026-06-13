@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Game High-Score Leaderboard</h1>
+
+<select id="gameFilter">
+    <option value="All">All Games</option>
+    <option value="Chess">Chess</option>
+    <option value="Cricket">Cricket</option>
+</select>
+
+<table>
+    <thead>
+        <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Game</th>
+            <th>Score</th>
+        </tr>
+    </thead>
+
+    <tbody id="leaderboardBody"></tbody>
+</table>
+
+<script src="script.js"></script>
+
+</body>
+</html>
